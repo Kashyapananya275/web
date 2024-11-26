@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Online Eye Testing and Optical Management System</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #b948a6;
+        height: 100%;
+      }
+
+      header {
+        background-color: rgba(24, 58, 67, 0.8);
+        color: white;
+        text-align: center;
+        padding: 40px;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+
+      header h2 {
+        margin: 10px 0;
+        font-size: 24px;
+      }
+
+      .top-right-options {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+      }
+
+      .top-right-options a {
+        background-color: #d348a9;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        margin-left: 10px;
+        border-radius: 5px;
+      }
+
+      .top-right-options a:hover {
+        background-color: #004a5a;
+      }
+
+      .animated-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        filter: blur(3);
+        background-position: center;
+        animation: backgroundChange 5s ease-in-out infinite;
+      }
+
+      @keyframes backgroundChange {
+        0% {
+          background-image: url("eye.jpg");
+        }
+        100% {
+          background-image: url("optical.jpg");
+        }
+      }
+
+      .center-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(196, 109, 109);
+      }
+
+      .appointment-button-container {
+        margin-top: 20px;
+      }
+
+      .appointment-button {
+        background-color: #005f79;
+        color: white;
+        padding: 14px 30px;
+        font-size: 16px;
+        text-decoration: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .appointment-button:hover {
+        background-color: #004a5a;
+      }
+
+      .thought {
+        font-family: "Georgia", serif;
+        font-size: 34px;
+        font-weight: 400;
+        color: #3c1820;
+        padding: 30px;
+        background-color: rgba(43, 151, 181, 0.1);
+        border-radius: 10px;
+        max-width: 800px;
+        margin: 5 auto;
+        box-shadow: 6 4px 6px rgba(0, 0, 0, 0.1);
+        opacity: 1;
+
+        animation: fadeInUp 1s forwards;
+        animation-delay: 3ms;
+      }
+
+      footer {
+        background-color: #470fc9;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="animated-background"></div>
+
+    <div class="center-content">
+      <h1 class="thought">Eye Testing and Optical management System</h1>
+      <div class="appointment-button-container">
+        <a href="start.html" class="appointment-button">Start</a>
+      </div>
+    </div>
+    <h3>
+      <centre
+        ><marquee
+          >Protect your eyes with our advanced optical management
+          system</marquee
+        ></centre
+      >
+    </h3>
+    <footer>
+      <p>© 2024 Online Eye Testing and Optical Management System</p>
+    </footer>
+  </body>
+</html>
